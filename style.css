@@ -82,7 +82,12 @@ li { margin: 4px 0; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 14px; color: var(--muted); }
-.site-footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+.site-footer .wrap { display: flex; flex-direction: column; gap: 16px; }
+.site-footer .maker, .site-footer .legal { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; justify-content: space-between; }
+.site-footer .maker { color: var(--text); font-size: 15px; }
+.site-footer .profiles { display: flex; gap: 14px; }
+.site-footer .profiles a { color: var(--muted); display: inline-flex; padding: 4px; border-radius: 8px; }
+.site-footer .profiles a:hover { color: var(--brand); }
 .site-footer a { color: var(--muted); }
 
 /* Language switcher */
