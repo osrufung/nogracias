@@ -1,0 +1,105 @@
+:root {
+  --bg: #fff8f1;
+  --surface: #ffffff;
+  --text: #2a1a14;
+  --muted: #6e5a50;
+  --line: #f0dfd3;
+  --brand: #cc4529;
+  --brand-soft: #fde9e1;
+  --radius: 18px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1210;
+    --surface: #251a17;
+    --text: #f7ebe4;
+    --muted: #c2aba0;
+    --line: #3a2a25;
+    --brand: #ff8061;
+    --brand-soft: #3a211a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+}
+
+a { color: var(--brand); text-underline-offset: 3px; }
+
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+/* Header */
+.site-header { padding: 20px 0; }
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 600; font-size: 19px; }
+.brand img { width: 36px; height: 36px; }
+.site-nav { display: flex; gap: 18px; flex-wrap: wrap; font-size: 15px; }
+.site-nav a { color: var(--muted); text-decoration: none; }
+.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--text); }
+
+/* Hero */
+.hero { text-align: center; padding: 48px 0 32px; }
+.hero img { width: 128px; height: 128px; filter: drop-shadow(0 12px 24px rgb(204 69 41 / 0.25)); }
+.hero h1 { font-size: clamp(40px, 9vw, 64px); line-height: 1.05; margin: 24px 0 12px; letter-spacing: -0.02em; }
+.hero p { font-size: 20px; color: var(--muted); max-width: 34ch; margin: 0 auto; }
+.store-badge { display: inline-block; margin-top: 28px; line-height: 0; }
+.store-badge img { height: 48px; width: auto; }
+.hero .note { font-size: 15px; margin-top: 12px; }
+
+/* Content */
+main { padding-bottom: 48px; }
+h1 { font-size: 36px; line-height: 1.15; letter-spacing: -0.01em; margin: 24px 0 8px; }
+h2 { font-size: 24px; line-height: 1.25; margin: 40px 0 8px; }
+h3 { font-size: 18px; margin: 24px 0 4px; }
+.lead { font-size: 19px; color: var(--muted); margin-top: 0; }
+.updated { font-size: 14px; color: var(--muted); }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin: 24px 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+.card h3 { margin-top: 0; }
+.card p { margin: 0; color: var(--muted); font-size: 15px; }
+.card .emoji { font-size: 26px; line-height: 1; display: block; margin-bottom: 10px; }
+
+.callout { background: var(--brand-soft); border-radius: var(--radius); padding: 18px 20px; margin: 24px 0; }
+.callout p { margin: 0; }
+
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; margin: 10px 0; }
+summary { cursor: pointer; font-weight: 600; }
+details[open] summary { margin-bottom: 8px; }
+
+ol, ul { padding-left: 22px; }
+li { margin: 4px 0; }
+.path { font-size: 15px; color: var(--muted); }
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 14px; color: var(--muted); }
+.site-footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+.site-footer a { color: var(--muted); }
+
+/* Language switcher */
+.lang-switch { font-size: 14px; color: var(--muted); }
+.lang-switch a { color: var(--muted); text-decoration: none; }
+.lang-switch a[aria-current="page"] { color: var(--text); font-weight: 600; }
+
+/* Screenshots */
+.shots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 32px 0 8px; }
+.shots figure { margin: 0; text-align: center; }
+.shots img {
+  width: 100%; height: auto; display: block;
+  border-radius: 28px; border: 6px solid #1f1612;
+  box-shadow: 0 18px 40px rgb(42 26 20 / 0.18);
+}
+.shots figcaption { font-size: 14px; color: var(--muted); margin-top: 10px; }
+@media (max-width: 620px) {
+  .shots { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 70%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+  .shots figure { scroll-snap-align: center; }
+}
