@@ -108,3 +108,10 @@ li { margin: 4px 0; }
   .shots { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 70%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
   .shots figure { scroll-snap-align: center; }
 }
+
+/* Comparison table */
+.table-wrap { overflow-x: auto; margin: 16px 0 8px; }
+table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 14px; overflow: hidden; font-size: 15px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 13px; }
+tr:last-child td { border-bottom: none; }
