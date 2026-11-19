@@ -7,6 +7,10 @@
   --brand: #cc4529;
   --brand-soft: #fde9e1;
   --radius: 18px;
+  /* Soft coral glow behind the top of the page. */
+  --halo-1: rgb(240 96 62 / 0.22);
+  --halo-2: rgb(255 170 120 / 0.16);
+  --halo-3: rgb(240 96 62 / 0.10);
   color-scheme: light dark;
 }
 
@@ -19,6 +23,9 @@
     --line: #3a2a25;
     --brand: #ff8061;
     --brand-soft: #3a211a;
+    --halo-1: rgb(255 128 97 / 0.20);
+    --halo-2: rgb(255 128 97 / 0.08);
+    --halo-3: rgb(204 69 41 / 0.10);
   }
 }
 
@@ -28,7 +35,12 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(900px 520px at 50% -120px, var(--halo-1), transparent 70%),
+    radial-gradient(600px 400px at 100% 380px, var(--halo-2), transparent 70%),
+    radial-gradient(600px 400px at 0% 520px, var(--halo-3), transparent 70%),
+    var(--bg);
+  background-repeat: no-repeat;
   color: var(--text);
   font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
 }
