@@ -1,0 +1,36 @@
+# No, gracias
+
+> «No, gracias» es una app gratuita para iPhone que identifica o bloquea las llamadas comerciales con prefijo 400 en España. Desde el 17 de octubre de 2026, las llamadas comerciales en España deben hacerse desde números de nueve cifras que empiezan por 400 (+34 400 000 000 a +34 400 999 999). La app carga ese millón de números en iOS mediante la función de bloqueo e identificación de llamadas, sin anuncios, sin cuentas y sin recoger datos.
+
+Datos clave:
+
+- Precio: gratis. Sin anuncios, sin suscripción ni versión de pago. Donaciones opcionales («Invítame a un café») que no desbloquean nada.
+- Plataforma: iPhone con iOS 18 o posterior. Disponible en la App Store de España: https://apps.apple.com/es/app/id6830892528
+- Modos: identificar (la llamada suena con la etiqueta «Comercial (400)», editable), bloquear (no suena ni aparece y quien llama no se entera) o desactivado.
+- Automatización: filtros de concentración (por ejemplo, bloquear mientras duermes), botón en el Centro de Control, Siri y Atajos.
+- Excepciones: números 400 concretos que siempre suenan, como el del banco o el seguro.
+- Filtro de SMS opcional: manda a «No deseados» los SMS del operador que avisan de una llamada 400 ya bloqueada.
+- Las llamadas bloqueadas quedan en Teléfono › Recientes como «Número bloqueado».
+- Privacidad: todo ocurre en el iPhone. No ve llamadas, contactos ni historial, no tiene servidores ni analítica.
+- Activación: Ajustes › Apps › Teléfono › Bloqueo e identificación de llamadas › No, gracias.
+- Idiomas: castellano, catalán, inglés, euskera y gallego.
+- Desarrollador: Oswaldo Rubio, desarrollador iOS independiente. Contacto: info@nogracias.app
+- App independiente, sin relación con la Administración ni con ningún operador.
+
+## Guías
+
+- [Cómo bloquear las llamadas 400 en el iPhone](https://nogracias.app/bloquear-400-iphone.html): todas las opciones (app, filtrar desconocidos de iOS, bloquear número a número, operador), con una tabla comparativa.
+- [El prefijo 400](https://nogracias.app/prefijo-400.html): qué es, desde cuándo es obligatorio (Resolución de 14 de abril de 2026, BOE-A-2026-8409), si se puede devolver la llamada, Lista Robinson, derecho de oposición y cómo reclamar ante la AEPD.
+
+## App
+
+- [Portada](https://nogracias.app/): qué hace la app, capturas y enlace a la App Store.
+- [Ayuda](https://nogracias.app/soporte.html): activación y preguntas frecuentes.
+- [Privacidad](https://nogracias.app/privacidad.html): política de privacidad.
+
+## Otros idiomas
+
+- [Català](https://nogracias.app/ca/)
+- [English](https://nogracias.app/en/)
+- [Euskara](https://nogracias.app/eu/)
+- [Galego](https://nogracias.app/gl/)
