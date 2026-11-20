@@ -95,5 +95,13 @@
     <span><a href="mailto:info@nogracias.app">Contacte</a> · <a href="privacidad.html">Privadesa</a></span>
   </div>
 </div></footer>
+<script>
+// Remember the language picked with the switcher; the home page honours it.
+document.querySelectorAll('.lang-switch a').forEach(function (a) {
+  a.addEventListener('click', function () {
+    document.cookie = 'lang=' + a.hreflang + '; path=/; max-age=31536000; SameSite=Lax';
+  });
+});
+</script>
 </body>
 </html>
