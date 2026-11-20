@@ -19,14 +19,14 @@ Datos clave:
 
 ## Guías
 
-- [Cómo bloquear las llamadas 400 en el iPhone](https://nogracias.app/bloquear-400-iphone.html): todas las opciones (app, filtrar desconocidos de iOS, bloquear número a número, operador), con una tabla comparativa.
-- [El prefijo 400](https://nogracias.app/prefijo-400.html): qué es, desde cuándo es obligatorio (Resolución de 14 de abril de 2026, BOE-A-2026-8409), si se puede devolver la llamada, Lista Robinson, derecho de oposición y cómo reclamar ante la AEPD.
+- [Cómo bloquear las llamadas 400 en el iPhone](https://nogracias.app/bloquear-400-iphone): todas las opciones (app, filtrar desconocidos de iOS, bloquear número a número, operador), con una tabla comparativa.
+- [El prefijo 400](https://nogracias.app/prefijo-400): qué es, desde cuándo es obligatorio (Resolución de 14 de abril de 2026, BOE-A-2026-8409), si se puede devolver la llamada, Lista Robinson, derecho de oposición y cómo reclamar ante la AEPD.
 
 ## App
 
 - [Portada](https://nogracias.app/): qué hace la app, capturas y enlace a la App Store.
-- [Ayuda](https://nogracias.app/soporte.html): activación y preguntas frecuentes.
-- [Privacidad](https://nogracias.app/privacidad.html): política de privacidad.
+- [Ayuda](https://nogracias.app/soporte): activación y preguntas frecuentes.
+- [Privacidad](https://nogracias.app/privacidad): política de privacidad.
 
 ## Otros idiomas
 
